@@ -6,7 +6,7 @@ A "League of Legends" jungle timer for dual monitor setup.
 
 ### Windows Executable
 Download the .zip file from http://downloads.the-enlightened.de/LeagueTimer/, unzip 
-and start the app. All required components (.net runtime) will be loaded automatically.
+and install the app. All required components (.net runtime) will be loaded automatically.
 
 ### Source
 Download the source as zip or "Clone to Windows". You can also setup Git manually and 
