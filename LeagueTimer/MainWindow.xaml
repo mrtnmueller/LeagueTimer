@@ -26,7 +26,7 @@
                     <Image Height="100" Width="100" Source="Resources/GolemSquare.png" Margin="10,10,10,0" />
                 </Viewbox>
                 <Viewbox Grid.Row="1" Grid.Column="0">
-                    <Button x:Name="_5v5OwnBlueButton" Content="0:03" Margin="5" Click="_5v5OwnBlueButton_Click" Focusable="False"/>
+                    <Button x:Name="_5v5OwnBlueButton" Content="5:00" Margin="5" Click="_5v5OwnBlueButton_Click" Focusable="False"/>
                 </Viewbox>
                 <!--eof own blue-->
                 <!--own red-->

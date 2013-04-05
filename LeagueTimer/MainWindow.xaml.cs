@@ -173,6 +173,12 @@ namespace LeagueTimer
                       DispatcherPriority.Background,
                         new Action(() => _5v5OwnBlueButton.Content = "5:00")
                 );
+
+                Application.Current.Dispatcher.BeginInvoke(
+                      DispatcherPriority.Background,
+                        new Action(() => _5v5OwnBlueButton.Tag = "")
+                );
+               
                 
             }
 
@@ -184,6 +190,11 @@ namespace LeagueTimer
                 Application.Current.Dispatcher.BeginInvoke(
                       DispatcherPriority.Background,
                         new Action(() => _5v5OwnRedButton.Content = "5:00")
+                );
+
+                Application.Current.Dispatcher.BeginInvoke(
+                      DispatcherPriority.Background,
+                        new Action(() => _5v5OwnRedButton.Tag = "")
                 );
                  
             }
@@ -198,6 +209,11 @@ namespace LeagueTimer
                         new Action(() => _5v5EnemyBlueButton.Content = "5:00")
                 );
 
+                Application.Current.Dispatcher.BeginInvoke(
+                      DispatcherPriority.Background,
+                        new Action(() => _5v5EnemyBlueButton.Tag = "")
+                );
+
             }
 
             //ennemy red buff
@@ -208,6 +224,11 @@ namespace LeagueTimer
                 Application.Current.Dispatcher.BeginInvoke(
                       DispatcherPriority.Background,
                         new Action(() => _5v5EnemyRedButton.Content = "5:00")
+                );
+
+                Application.Current.Dispatcher.BeginInvoke(
+                      DispatcherPriority.Background,
+                        new Action(() => _5v5EnemyRedButton.Tag = "")
                 );
             }
 
@@ -220,6 +241,11 @@ namespace LeagueTimer
                       DispatcherPriority.Background,
                         new Action(() => _5v5DrakeButton.Content = "6:00")
                 );
+
+                Application.Current.Dispatcher.BeginInvoke(
+                      DispatcherPriority.Background,
+                        new Action(() => _5v5DrakeButton.Tag = "")
+                );
             }
 
             //baron nashor
@@ -230,6 +256,11 @@ namespace LeagueTimer
                 Application.Current.Dispatcher.BeginInvoke(
                       DispatcherPriority.Background,
                         new Action(() => _5v5BaronButton.Content = "7:00")
+                );
+
+                Application.Current.Dispatcher.BeginInvoke(
+                      DispatcherPriority.Background,
+                        new Action(() => _5v5BaronButton.Tag = "")
                 );
             }
 
